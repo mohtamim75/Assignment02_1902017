@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Internal CSS */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .column {
+            flex-basis: calc(33.33% - 20px);
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 0;
+            height: 650px;
+            background-color: antiquewhite;
+            padding-top: 40px;
+        }
+
+        .column h2 {
+            margin-top: 0;
+        }
+
+        .column p {
+            margin-bottom: 20px;
+        }
+
+        .column img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .column video {
+            max-width: 100%;
+        }
+    </style>
+    <title>Three-Column Layout</title>
+</head>
+<body>
+    <div class="container">
+        <div class="column">
+            <h2>Rubik's Cube Art</h2>
+            <p>Rubik's Cube Mosaic Art is a fascinating and innovative form of artistic expression that blends the iconic Rubik's Cube puzzle with the world of visual art. This unique art form involves arranging individual Rubik's Cubes in a meticulous pattern to create intricate and detailed images, designs, and even portraits.
+            <br><br>
+            Artists who specialize in Rubik's Cube Mosaic Art meticulously select Rubik's Cubes of various colors to act as pixels in their artwork. Each cube's colored face serves as a pixel, and by arranging these cubes in a specific order, a larger image emerges. This process requires an incredible attention to detail and a keen eye for color, as the artist must choose the right shades to achieve the desired visual effect.
+            <br><br>    
+            Creating a Rubik's Cube mosaic is a labor-intensive endeavor that demands patience, precision, and creativity. The artist must first envision the image they wish to create and then plan out the color placement for each individual cube. Assembling the mosaic involves solving the Rubik's Cubes according to the predetermined pattern, ensuring that the correct colors are aligned to form the overall image.
+            <br><br>     
+            In conclusion, Rubik's Cube Mosaic Art stands as a testament to human ingenuity and creativity. It transforms a classic puzzle into a medium for artistic expression, inviting viewers to appreciate the fusion of meticulous planning, dedication, and a deep appreciation for color and form. This art form continues to evolve, pushing the boundaries of what is possible with Rubik's Cubes and inspiring both artists and enthusiasts alike.<br></p>
+        </div>
+        <div class="column">
+            <h2>Artworks</h2>
+            <img src="img6.png" alt="Messi">
+            <img src="img7.png" alt="Tahsan">
+        </div>
+        <div class="column">
+            <h2>Timelapses</h2>
+            <video controls>
+                <source src="video1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+            <video controls>
+                <source src="video2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+</body>
+</html>
